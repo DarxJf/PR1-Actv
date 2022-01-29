@@ -1,0 +1,1 @@
+Activity about variablesActivity about variables
