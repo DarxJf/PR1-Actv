@@ -15,11 +15,14 @@ int main(void){
  refresh();
  printw(" Y %d", Sum2);
  refresh();
- printw(" es igual a %d",Sum1+Sum2);
+ printw(" es igual a %d\n",Sum1+Sum2);
  refresh();
  sleep(3);
-  
-  
+  printw("\n");
+ refresh();
+ printw("Presiona cualquier tecla para salir\n");
+ refresh();
+ getch();
   endwin();
   return 0;
 }
